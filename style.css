@@ -1,6 +1,6 @@
 .jumbotron{
 	padding-top: 2rem;
-	background-color: #ffffff;
+	background-color:  #273036;;
 }
 
 #about{
@@ -15,6 +15,10 @@
 	background-color: #47a9ff;
 }
 
-#footer{
+#contact{
 	background-color: #273036;
+}
+
+#footer{
+	background-color: #100f10;
 }
