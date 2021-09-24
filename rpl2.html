@@ -197,11 +197,11 @@
             </div>
                 <div class="row justify-content-center">
                     <div class="col-md-6">
-                        <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-                            <strong>Terima Kasih!</strong> Pesan Anda sudah terkirim
+                        <div class="my-alert alert-success alert-dismissible fade show d-none" role="alert">
+                            <strong>Terima Kasih!</strong> Pesan Anda sudah kami terima.
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                          </div>
-                        <form name="sandatya-contact-form">
+                        </div>
+                        <form name="contact-form">
                             <div class="mb-3 aos-init aos-animate" data-aos="zoom-in-up" data-aos-duration="500">
                                 <label class="form-label" style="color: white;">Nama Lengkap</label>
                                 <input type="text" class="form-control" name="nama" placeholder="Masukkan Nama Lengkap">
@@ -214,17 +214,18 @@
                             </div>
                             <div class="mb-3 aos-init aos-animate" data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="200">
                               <label class="form-label" style="color:white">Nomer Telepon/HP</label>
-                              <input type="tel" class="form-control" name="telp" placeholder="Masukkan Nomer Telepon/HP">
+                              <input type="tel" class="form-control" name="no telp" placeholder="Masukkan Nomer Telepon/HP">
                             </div>
                             <div class="mb-3 aos-init aos-animate" data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="300">
                                 <label class="form-label" style="color:white">Pesan</label>
                                 <textarea class="form-control" name="pesan" rows="3"></textarea>
                               </div>
-                            <button type="submit" class="btn btn-kirim" style="color: white;">Kirim</button>
-                            <button class="btn btn-loading d-none" type="button" disabled="">
-                                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            <button type="submit" class="btn-darkgray btn btn-kirim" style="color: white;">Kirim</button>
+
+                            <button class="btn btn-darkgray btn-loading d-none" type="button" disabled>
+                                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style="color: white;"> </span>
                                 Loading...
-                              </button>
+                            </button>
                           </form>
                     </div>
                 </div>
@@ -240,5 +241,32 @@
    </footer>
     </section>
    <!-- Akhir Footer -->
+   <!-- Script -->
+   <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwOx9vciggMvChxf2Ec17bk2juqnkVZfawDu9EObjZsOgE5Qx5VdKWrDc2sa_UncoxC-Q/exec'
+  const form = document.forms['contact-form']
+  const btnKirim = document.querySelector ('.btn-kirim');
+  const btnLoading = document.querySelector ('.btn-loading');
+  const myAlert = document.querySelector ('.my-alert');
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    //ketika tombol sumbit diklik
+    //tampilkan tombol loading, hilangkan tombol kirim
+    btnLoading.classList.toggle('d-none');
+    btnKirim.classList.toggle('d-none');
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        // tampilkan tombol kirim, hilangkan tombol loading
+         btnLoading.classList.toggle('d-none');
+         btnKirim.classList.toggle('d-none');
+        // tampilkan alret
+         myAlret.classList.toggle('d-none');
+        // reset form
+        form.reset();
+        console.log('Success!', response)})
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
 </body>
 </html>
