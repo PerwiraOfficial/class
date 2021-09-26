@@ -225,8 +225,6 @@
                             <button class="btn btn-darkgray btn-spinner d-none" type="button" disabled>
                                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style="color: white;"> </span>
                             </button>
-                            
-                            <button class="btn-loading d-none" style="color : white;">Loading ... </button>   
                           </form>
                     </div>
                 </div>
@@ -248,20 +246,17 @@
   const form = document.forms['contact-form']
   const btnKirim = document.querySelector ('.btn-kirim');
   const btnSpinner = document.querySelector ('.btn-spinner');
-  const btnLoading = document.querySelector ('.btn-loading');
 
   form.addEventListener('submit', e => {
     e.preventDefault()
     //ketika tombol sumbit diklik
     //tampilkan tombol loading, hilangkan tombol kirim
-    btnLoading.classList.toggle('d-none');
     btnSpinner.classList.toggle('d-none');  
     btnKirim.classList.toggle('d-none');
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => {
         // tampilkan tombol kirim, hilangkan tombol loading
          btnSpinner.classList.toggle('d-none');
-         btnLoading.classList.toggle('d-none');
          btnKirim.classList.toggle('d-none');
         // reset form
         contact-form.reset();
