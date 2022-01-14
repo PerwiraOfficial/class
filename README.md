@@ -30,8 +30,8 @@
 > Download Rules or Lesson Schedule
 ```
 
-* [Saweria](https://saweria.co/DndPrd)
-* Instagram : <a href="https://www.instagram.com/dndyprd/> @dndyprd </a>
+* Donate : [Saweria](https://saweria.co/DndPrd)
+* Instagram : [@dndyprd](https://www.instagram.com/dndyprd)
 * | Website Kelas X RPL 2 |
 * | SMK TI Bali Global Badung |
 
