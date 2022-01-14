@@ -1,0 +1,197 @@
+/* Text */
+a{
+	text-decoration: none;
+}
+p{
+	line-height: 27px;
+}
+body{
+	justify-content: center;
+	align-items: center;
+}
+
+/* Background Color */
+#home{
+	padding-top: 7rem;
+	background-color: #FFFFFF;
+}
+
+#about{
+	background-color: #A4E8E0;
+}
+
+#jadwal{
+	background-color: #A4E8E0;
+}
+#jadwal img{
+	width: 95%;
+}
+
+#teams{
+	background-color: #FFF;
+}
+
+#svg{
+	background-color: #a4e8e0;
+}
+
+#download{
+	background-color: #FFF;	
+}
+
+#galery{
+	background-color:#4CD7D0;
+}
+
+#footer{
+	padding-top: 5rem;
+	background-color: #4CD7D0;
+}
+/* Akhir Background */
+
+/* Awal Member Class */
+#instagram{
+	background-color: #15948E;
+}
+
+.teams .carousel .card{
+    background: #FFF;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.text{
+	color: #15948E;
+}
+
+.teams .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.teams .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.teams .carousel .card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #15948E;
+    transition: all 0.3s ease;
+}
+.teams .carousel .card:hover img{
+    border-color: #15948E;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid #4CD7D0!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: #4CD7D0!important;
+}
+/* Akhir Member Class */
+
+/* Awal Button */
+.btn {
+	text-decoration: none;
+	padding: 6px 12px;
+	font-size: 1.15rem;
+}
+
+.btn-1{
+	background: #4CD7D0;
+	color: #FFFF;
+	border-radius: 10px;
+	transition: transform 0.2s ease;
+}
+
+.btn-1::after, .btn-1::before{
+	content: "";
+	position: absolute;
+	opacity: 0.3;
+	background: #4CD7D0;
+	border-radius: inherit;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: transform 0.3s ease;
+}
+
+.btn-1:hover{
+	color: #FFFF;
+	transform: translate(-12px, -12px);
+}
+
+.btn-1:hover::after{
+	transform: translate(6px, 6px);
+}
+
+.btn-1:hover::before{
+	transform: translate(12px, 12px);
+}
+
+.btn-2{
+	background: #4CD7D0;
+	color: #FFFF;
+	border-radius: 10px;
+	transition: transform 0.2s ease;
+}
+
+.btn-2::after, .btn-2::before{
+	content: "";
+	position: absolute;
+	opacity: 0.3;
+	background: #4CD7D0;
+	border-radius: inherit;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: transform 0.3s ease;
+}
+
+.btn-2:hover{
+	color: #FFFF;
+	transform: translate(-12px, -12px);
+}
+
+.btn-2:hover::after{
+	transform: translate(6px, 6px);
+}
+
+.btn-2:hover::before{
+	transform: translate(12px, 12px);
+}
+/*Akhir Button*/
+
+.slides{
+	border-radius: 20px;
+}
