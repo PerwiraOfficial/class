@@ -1,20 +1,12 @@
 ### I'm FXC7BOT Gift Me Stars 🌟 <br><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="20px">
 <p align="center">
-<a href="https://github.com/Fxc7"><img src="https://raw.githubusercontent.com/Fxc7/termux-bot-wa/main/src/glitchtext.png"></a>
+<a href="https://github.com/DandyPradnyana"><img src="https://raw.githubusercontent.com/Fxc7/termux-bot-wa/main/src/glitchtext.png"></a>
 </p>
 <br>
 
-
-
-<p align="center">
-<a href="#"><img title="termux-bot-wa" src="https://img.shields.io/badge/-TERMUX--BOT--WA-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
-<p align="center">
-<a href="https://github.com/DandyPradnyana"><img title="Author" src="https://img.shields.io/badge/AUTHOR-DNDY-aqua?style=for-the-badge&logo=github"></a>
-</p>
-
-
 ## PERWIRA OFFICIAL
+
+<a href="https://github.com/DandyPradnyana"><img title="Author" src="https://img.shields.io/badge/AUTHOR-DNDY-aqua?style=for-the-badge&logo=github"></a>
 
 ```
 > Information
