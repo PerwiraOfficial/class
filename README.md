@@ -21,12 +21,6 @@
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/MAINTENED-YES-blue.svg"</a>
 </p>
 
-<hr color="black">
-## Donate
-<hr color="black">
-
-* [Saweria](https://saweria.co/DndPrd)
-
 
 ## PERWIRA OFFICIAL
 
@@ -36,7 +30,8 @@
 > Download Rules or Lesson Schedule
 ```
 
-* Instagram : <a href="https://www.instagram.com/dndyprd/>@dndyprd</a>
+* [Saweria](https://saweria.co/DndPrd)
+* Instagram : <a href="https://www.instagram.com/dndyprd/> @dndyprd </a>
 * | Website Kelas X RPL 2 |
 * | SMK TI Bali Global Badung |
 
