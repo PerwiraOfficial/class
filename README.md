@@ -1,7 +1,7 @@
 ## PERWIRA OFFICIAL
 
 <p align="center">
-<a href="https://github.com/DandyPradnyana"><img src="https://raw.githubusercontent.com/PerwiraOfficial/class/foto/logo.png"></a>
+<a href="https://github.com/DandyPradnyana"><img src=""></a>
 </p>
 <br>
 
