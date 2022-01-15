@@ -5,10 +5,11 @@
 </p>
 <br>
 
-<a href="https://github.com/DandyPradnyana"><img title="Author" src="https://img.shields.io/badge/AUTHOR-DNDY-aqua?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/DandyPradnyana"><img title="Author" src="https://img.shields.io/badge/AUTHOR-DNDY-aqua?style=for-the-badge&logo=github" size="200px"></a>
 
 ```
-* Feature
+Feature
+
 > Information
 > Photo Member
 > Download Rules or Lesson Schedule
