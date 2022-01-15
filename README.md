@@ -5,7 +5,7 @@
 </p>
 <br>
 
-<a href="https://github.com/DandyPradnyana"><img title="Author" src="https://img.shields.io/badge/AUTHOR-DNDY-aqua?style=for-the-badge&logo=github" size="200px"></a>
+<a href="https://github.com/DandyPradnyana"><img title="Author" src="https://img.shields.io/badge/AUTHOR-DNDY-aqua?style=for-the-badge&logo=github"></a>
 
 ```
 Feature
@@ -15,7 +15,8 @@ Feature
 > Download Rules or Lesson Schedule
 ```
 * Donate : [Saweria](https://saweria.co/DndPrd)
-* Instagram : [@dndyprd](https://www.instagram.com/dndyprd)
+* Instagram : [@dndyprd](https://www.instagram.com/dndyprd) 
+*             [@perwira_official](https://www.instagram.com/perwira_official)
 * Website Kelas X RPL 2 
 * SMK TI Bali Global Badung 
 
